@@ -1,0 +1,323 @@
+
+ h3 ,h2 ,h4{
+    font-family: 'Lora', serif;
+    letter-spacing: 1%;
+    line-height: 1.5;
+}
+h1 ,p ,a{
+    font-family: 'PT Serif', sans-serif ;
+    word-spacing: 1%;
+    line-height: 2;
+
+}
+
+.top-conatiner{
+    background-color:black ;
+
+} 
+.hotel-pic{
+   background:url('picture/hotellast.jpg');
+  height: 45vw;
+   background-size: cover;
+   background-position: center; 
+  background-repeat: no-repeat; 
+  position: relative;
+}
+
+.navbar{
+    padding: 0 0 0.3rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.4vw;
+    font-weight: bold;
+    padding-left: 15px;
+    border:black 3px ;
+    
+}
+
+.navbar-expand-lg .navbar-nav .book-button{
+  background-color: #FF9F45;
+}
+.navbar-expand-lg .navbar-nav .book-button .nav-link{
+    color: black;
+  }
+
+
+.nav-item{
+    padding: 0 18px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 100px;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .book-button::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: black;
+    transition: 0.4s
+}
+
+.navbar-expand-lg .navbar-nav .book-button:hover::after {
+    width: 100%
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}}
+.navbar{
+    position: absolute;
+    width: 100%;
+}
+.navbar-collapse.collapse.show{
+   background-color: #FFBC80;;
+}
+
+
+@media (max-width: 992px){
+    .navbar-dark .navbar-nav .nav-link {
+        color: black;
+        font-size: 73%;
+    }
+    .nav-item:hover::after {
+        width: 14%;
+    }
+    .navbar-expand-lg .navbar-nav .book-button:hover::after {
+        width: 14%;
+    }
+
+   
+
+}
+       
+
+.heading_about{
+    height: 8vw;
+   
+}
+
+.main{
+    letter-spacing: 1.2vw;
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+    margin-top: 10vw;
+
+
+}
+
+h3{
+    margin-top: 40px;
+    color: #FFBC80;
+}
+
+.para3{
+    color: antiquewhite;
+}
+
+.middle{
+    background-color: black;
+    padding: 14% 9% 9%;
+  
+}
+
+.pic{
+    height: 111%;
+    width: 94%;
+    padding: 4vw;
+}
+
+.text{
+    padding: 45px;
+    line-height: 2;
+}
+.second_row{
+    margin-top: 3vw;
+}
+.text1{
+    margin-top: 44px;
+    margin-bottom: 13px;
+    color: #FF9F45;
+}
+
+@media (max-width: 998px){
+    .row>* {
+        text-align: center;
+    }
+  
+    }
+    @media (max-width: 770px){
+        .text {
+            padding: 17px;
+        }
+        }
+        .container-fluid{
+            background-color: black;
+            text-align: center;
+        }
+        .food{
+            height: 102%;
+             width: 94%;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        @media (max-width:993px){
+            .food{
+                border-radius: 0%;
+                    width: 90%;
+            }
+        }
+        .container-fluid{
+            padding: 5% 2%;}
+         
+            .feature-box{
+                position: relative;
+                padding: 20px;
+            }
+        .discrip{
+           text-align: center;
+            color: antiquewhite;
+        }
+
+        .guest{
+            text-align: center;
+            color: #FFBC80;
+            margin-bottom: 9%;
+        }
+
+        @media (min-width:998px) {
+            .guest{
+                font-size: 3rem;
+            }
+            
+        }
+
+        .pic_last{
+            position: absolute;
+            text-align: center;
+            top: 2%;
+            /* padding: 4px; */
+            padding: 20px;
+        }
+
+       .para
+       {
+          opacity: 0;
+          margin-left: auto;
+          margin-right: auto;
+       }
+       .para:hover {
+           opacity: 1;
+           color: white;
+           font-weight: bold;
+           padding: 20px;
+       }
+        .discrip:hover{
+            color: #ef8172;
+
+        }
+        
+        .pading{
+            padding-bottom: 20%;
+        }
+        /* sections */
+        .coloured-section{
+            background-color: #FF9F45;
+            color:black;
+        }
+        .white-section{
+            background-color: antiquewhite;
+        }
+        h1{
+            margin-bottom: 21px;
+        }
+        
+        .color{
+            color: #FFBC80;
+        }
+        
+        .color:hover{
+            color: #FF9F45;
+        }
+        /* testimonial section */
+        
+        .testimonial-text1{
+            font-size: 2.6vw;
+            line-height: 1.5;
+            padding-right: 5%;
+            text-align: left;
+        }
+        .carousel-item{
+            padding:7% 11%;
+        }
+        .name{
+            padding: 2% 5%;
+        }
+        #press{
+            background:#FFBC80 ;
+            
+            padding-bottom: 3%;
+        }
+      
+        .press-logo{
+            width:15%;
+            margin:20px 20px 50px;
+        }
+        
+        .social-icon{
+            margin:20px 10px;
+        }
+        li{
+            list-style: none;
+            color: antiquewhite;
+            
+        }
+        ul{
+            padding:0;
+        }
+        a{
+            color: antiquewhite;
+            font-weight: 300;
+            text-decoration: underline transparent;
+        }
+         a:hover{
+             color: aliceblue;
+         }
+        
+        .footer-heading{
+            color: #FF9F45;
+            font-size: 2.3rem;
+        }
+        .last-part{
+            padding: 30px;
+            text-align: left;
+        }
+        @media (max-width:993px)
+        {
+            #title .container-fluid , .last-part{
+                text-align: center;
+            }
+
+            
+        }
+        
