@@ -1,0 +1,1 @@
+# Template_of_HotelPage
